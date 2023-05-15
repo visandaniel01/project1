@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>SneakersResell</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>SneakersResell</h1>
+ <p>Welcome to our site!</p>
+
+
+  
+      
+ <main>
+     
+    <div class="container"> 
+   <h1>Our products</h1>
+   <p>Here you can find rare sneakers who were bought from retail prices which are not available on original brand sites such as "Nike".</p>
+   <p>Click 'Empty Cart' button to remove items from your cart.</p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Air Jordan 1 Retro High "University Blue" </h3>
+            <p>Air Jordan 1 Retro High "University Blue" / Condition 10/10</p>
+	    <img src="airj1blue1.png" width="150" height="150">
+            <p class="price">$400</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">x Travis Scott Air Jordan 1</h3>
+            <p>x Travis Scott Air Jordan 1 Low OG SP / Condition 9/10</p>
+	    <img src="travis1.png" width="150" height="150">
+            <p class="price">$900</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Air Jordan 1 Retro High "Bred Toe"</h3>
+            <p>Air Jordan 1 Retro High "Bred Toe" / Condition 8.5/10</p>
+	    <img src="bredtoe.png" width="150" height="150">
+            <p class="price">$365</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+
+ </main>
+ 
+      
+  <footer class="credit">Made by Visan Bogdan-Daniel</footer>
+
+        <script  src="./js/script.html"></script> 
+  </body>
+</html>
